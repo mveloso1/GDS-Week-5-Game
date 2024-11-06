@@ -1,3 +1,4 @@
+console.log
 
 var w = false;
 var a = false;
