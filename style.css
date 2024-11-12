@@ -1,0 +1,9 @@
+#score {
+  text-align: center;
+}
+
+#game {
+    width: 600px;
+    height: 300px;
+    border: 2px solid rgb(48, 8, 8);
+}
