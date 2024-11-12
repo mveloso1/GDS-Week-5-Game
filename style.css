@@ -31,8 +31,13 @@ animation: boss 2.33s
 // if you need help wiht creating the animation, just ask me.
  }
 
+ @keyframe boss {
+    0%{left: 550px}
+    100%{left:50px}
+ }
+
  #enemies {
-    #boss {
+    
 
         height: 50px;
         width: 50px;
@@ -45,6 +50,13 @@ animation: boss 2.33s
         // if you need help wiht creating the animation, just ask me.
  }
 
+ @keyframe jump
+
  jump.animation {
-    animation: jump 0.5 s
+    animation: jump 0.5s
+ }
+
+ @keyframe run
+ run.animation {
+    animation: run 0.3s
  }
