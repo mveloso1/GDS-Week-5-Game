@@ -15,6 +15,7 @@
     position: relative;
     top: 225px;
     background-color: aqua; 
+    animation: jump 0.5s
     // The desgin of the player 
 }
 
@@ -34,6 +35,7 @@ animation: boss 2.33s
  @keyframe boss {
     0%{left: 550px}
     100%{left:50px}
+
  }
 
  #enemies {
@@ -50,13 +52,23 @@ animation: boss 2.33s
         // if you need help wiht creating the animation, just ask me.
  }
 
- @keyframe jump
-
  jump.animation {
     animation: jump 0.5s
  }
 
- @keyframe run
+ @keyframe jump {
+    0%{top: 225px;}
+    50%{top:75px;}
+    75%{top:75px;}
+    100%{top:225px}
+
+ }
+
  run.animation {
     animation: run 0.3s
+ }
+
+
+ @keyframe run {
+
  }
