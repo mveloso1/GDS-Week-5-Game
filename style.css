@@ -6,6 +6,7 @@
     width: 600px;
     height: 300px;
     border: 2px solid rgb(48, 8, 8);
+    // put your background of the game here ^
 }
 
 #spider {
@@ -13,5 +14,37 @@
     width: 75px;
     position: relative;
     top: 225px;
-    background-color: aqua;
+    background-color: aqua; 
+    // The desgin of the player 
 }
+
+ #boss {
+
+height: 50px;
+width: 50px;
+position: relative;
+top: 175px;
+right: 550px;
+background-image: url ; / put your link desgin here
+background-size: cover;
+animation: boss 2.33s 
+// if you need help wiht creating the animation, just ask me.
+ }
+
+ #enemies {
+    #boss {
+
+        height: 50px;
+        width: 50px;
+        position: relative;
+        top: 175px;
+        left: 550px;
+        background-image: url ; / put your link desgin here
+        background-size: cover;
+        animation: boss 2.33s 
+        // if you need help wiht creating the animation, just ask me.
+ }
+
+ jump.animation {
+    animation: jump 0.5 s
+ }
