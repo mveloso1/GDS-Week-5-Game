@@ -26,7 +26,12 @@ body{
 
 
 #score {
-  text-align: center;
+  text-align: top center;
+}
+
+#play {
+   text-decoration: wavy;
+   text-align: bottom center;
 }
 
 /*#game {
