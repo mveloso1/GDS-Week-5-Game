@@ -14,7 +14,7 @@
     width: 75px;
     position: relative;
     top: 225px;
-    background-color: aqua; 
+    background-color: slateblue; 
     animation: jump 0.5s
     // The desgin of the player 
 }
@@ -28,7 +28,7 @@ top: 175px;
 right: 550px;
 background-image: url ; / put your link desgin here
 background-size: cover;
-animation: boss 2.33s 
+
 // if you need help wiht creating the animation, just ask me.
  }
 
@@ -46,9 +46,9 @@ animation: boss 2.33s
         position: relative;
         top: 175px;
         left: 550px;
-        background-image: url ; / put your link desgin here
+        background-image: solid red;   // url  / put your link desgin here
         background-size: cover;
-        animation: boss 2.33s 
+        
         // if you need help wiht creating the animation, just ask me.
  }
 
@@ -61,14 +61,5 @@ animation: boss 2.33s
     50%{top:75px;}
     75%{top:75px;}
     100%{top:225px}
-
- }
-
- run.animation {
-    animation: run 0.3s
- }
-
-
- @keyframe run {
 
  }
