@@ -20,4 +20,3 @@ jump();
     }
 })
 
-function
