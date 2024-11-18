@@ -1,0 +1,25 @@
+/* added code by matt*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+}
+body{
+   /*
+      Centers the canvas
+   */
+   display:flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+#canvas1 {
+   border:5px solid black;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: cornflowerblue;
+   max-width: 100%;
+   max-height: 100%;
+}
+ /*added code by matt*/
